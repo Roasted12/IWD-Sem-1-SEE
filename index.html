@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     
+  </head>
+  <body>
+    <video autoplay muted loop width="auto">
+        <source src="assets/STG_flash.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+     </video>
+     <section class="hero fade-in">
+        <img id="toggleTheme" class="theme-btn" src="assets/theme_light.png" alt="theme icon" />
+        <div class="hero-pic">
+          <div class="inner-circle"></div>
+          <img src="assets/jaswant.png" alt="Jaswant Kolupuri" />
+        </div>
+        <div class="hero-info fade-in">
+        <h1>Sai Venkata Jaswant Kolupuri</h1>
+        <h2>Frontend Developer/UI Ux Designer</h2>
+        <div class="logo-container">
+          <a href="https://github.com/Roasted12"
+            ><img src="assets/github_light.png" alt="github logo"
+          /></a>
+          <a href="https://www.linkedin.com/in/jaswant-kolupuri-b7918028a/"
+            ><img src="assets/linkedin_light.png" alt="linkedin logo"
+          /></a>
+          <a href="mailto:kolupuri.jaswant@gmail.com"
+            ><img src="assets/email_light.png" alt="email logo"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="experience">
+      <h2><b>2</b><br />Years<br />Frontend</h2>
+      <h2><b>1st</b><br />Sem<br />B.Tech(Hons) Computer Science</h2>
+      <h2><b>3</b><br />Completed<br />Projects</h2>
+    </section>
+    <section class="cta">
+      <a href="assets/Resume.pdf" download>
+        <button class="btn download-btn">Download CV</button>
+      </a>
+      <a href="mailto:kolupuri.jaswant@gmail.com"
+        ><button class="btn contact-btn">Mail Me</button></a
+      >
+      <a href="tel:+918618094664" class="phone-btn">
+        <button class="btn phone-btn">Call Me</button>
+      </a>
+    </section>
+    <section class="portfolio-skills slide-up">
+        <div class="btn-bg">
+          <button class="btn-2" id="about-me-btn">About Me</button>
+          <button class="btn-2" id="education-btn">Education</button>
+          <button class="btn-2 active-btn slide-up" id="portfolio-btn">Projects</button>
+          <button class="btn-2" id="skills-btn">Skills</button>
+        </div>
+      </section>
+    <section class="about-me" id="about-me">
+        <div class="wrapper">
+          <h3>About Me</h3>
+          <article>
+            <p>Born in 2005</p>
+            <p>Hailing from the US and currently studying in India</p>
+            <p>Student, programmer, coding enthusiast, and much more</p>
+          </article>
+      
+          <article>
+            <p>Passions:</p>
+            <ul>
+              <li>Playing basketball</li>
+              <li>Competing in video game tournaments</li>
+            </ul>
+          </article>
+      
+          <article>
+            <p>Fun Fact:</p>
+            <p>Coffee is as essential as water for me</p>
+          </article>
+        </div>
+      </section>
+    <section class="education" id="education">
+        <div class="wrapper">
+          <h3>Education</h3>
+          <article>
+            <p>10th Grade:</p>
+            <p>Frank Anthony Public School</p>
+            <p>Year of Passing: 2020</p>
+            <p>Percentage: 93%</p>
+          </article>
+          
+          <article>
+            <p>12th Grade:</p>
+            <p>Narayana PU College</p>
+            <p>Year of Passing: 2023</p>
+            <p>Percentage: 92%</p>
+          </article>
+          
+          <article>
+            <p>CET Rank:</p>
+            <p>Rank: 2997</p>
+          </article>
+          
+          <article>
+            <p>B.Tech (Hons) Computer Science and Engineering:</p>
+            <p>RV University</p>
+            <p>Started in: 2023</p>
+          </article>
+        </div>
+      </section>
+      
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <a href="https://hamzaiqbal001.github.io/Sem-1-Web-Development-Project/#"
+          ><img src="assets/invinci.png" alt="Project 1"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://vaibhavmugulavalli.github.io/Flight-Data-Analysis/"
+          ><img src="assets/flightt.png" alt="Project 2"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <img src="assets/si.jpg" alt="Structured Innovation"/>
+      </div>
+      <div class="wrapper project-wrapper">
+        <img src="assets/dsca.jpg" alt="Digital System and Computer Architecture"/>
+      </div>
+      <div class="wrapper project-wrapper">
+        <img src="assets/leap.jpg" alt="Structured Innovation"/>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Languages</h3>
+        <article class="frontend-skills">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Java</p>
+          <p>C Programming</p>
+          <p>JavaScript</p>
+          <p>Python</p>
+          <p>React</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy Sai Venkata Jaswant Kolupuri 2024</p>
+    </footer>
+  </body>
+</html>
