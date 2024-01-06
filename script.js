@@ -77,21 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-function hideAllSections() {
-  [portfolio, skills, education, aboutMe].forEach(section => {
-    section.style.display = "none";
-  });
-}
-
-// Helper function to update the active button
-function updateActiveButton(activeButton) {
-  const allButtons = [portfolioBtn, skillsBtn, educationBtn, aboutMeBtn];
-  allButtons.forEach(button => {
-    button.classList.remove("active-btn");
-  });
-  activeButton.classList.add("active-btn");
-}
-
 document.body.classList.add("fade-in");
 
 function hideAllSections() {
