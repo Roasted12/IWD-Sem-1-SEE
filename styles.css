@@ -431,3 +431,34 @@
   .phone-btn .btn:hover {
     background-color: #38c9c9; 
   }
+
+  @media only screen and (max-width: 600px) {
+    .hero-pic {
+      width: 15rem;
+      height: 15rem;
+    }
+  
+    .inner-circle {
+      top: 0.07rem;
+      left: 0.07rem;
+      bottom: 0.07rem;
+      right: 0.07rem;
+    }
+  
+    .experience h2 {
+      width: 50%;
+      font-size: 0.8rem;
+    }
+  
+    .btn, .btn-2 {
+      width: 7rem;
+      height: 2.5rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  .theme-btn {
+    position: relative;
+    left: 1rem;
+  }
+  
